@@ -2,4 +2,4 @@
 
 ## Creational Patterns
 
-* [Factory Pattern](/src/creational/factory/FactoryPatternDemo.kt)
+* [Factory Pattern](/src/creational/factory)
