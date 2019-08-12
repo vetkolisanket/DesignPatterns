@@ -7,3 +7,4 @@
 ### Behavioral Patterns
 
 * [Command Pattern](/src/behavioral/command)
+* [Mediator Pattern](/src/behavioral/mediator)
