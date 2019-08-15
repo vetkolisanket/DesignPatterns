@@ -9,3 +9,4 @@
 * [Command Pattern](/src/behavioral/command)
 * [Mediator Pattern](/src/behavioral/mediator)
 * [Observer Pattern](/src/behavioral/observer)
+* [Strategy Pattern](/src/behavioral/strategy)
