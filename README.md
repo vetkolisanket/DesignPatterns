@@ -4,6 +4,7 @@
 
 * [Factory Pattern](/src/creational/factory)
 * [Abstract Factory Pattern](/src/creational/abstract_factory)
+* [Singleton Pattern](/src/creational/singleton)
 
 ### Behavioral Patterns
 
