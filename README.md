@@ -12,3 +12,4 @@
 * [Mediator Pattern](/src/behavioral/mediator)
 * [Observer Pattern](/src/behavioral/observer)
 * [Strategy Pattern](/src/behavioral/strategy)
+* [Chain of responsibility Pattern](/src/behavioral/chain_of_responsibility)
