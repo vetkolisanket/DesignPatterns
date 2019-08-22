@@ -26,3 +26,8 @@ This pattern involves a single class which is responsible to join functionalitie
 
 Bridge is used when we need to decouple an abstraction from its implementation so that the two can vary independently. This type of design pattern comes under structural pattern as this pattern decouples implementation class and abstract class by providing a bridge structure between them.
 This pattern involves an interface which acts as a bridge which makes the functionality of concrete classes independent from interface implementer classes. Both types of classes can be altered structurally without affecting each other.
+
+* [Composite Pattern](/src/structural/composite)
+
+Composite pattern is used where we need to treat a group of objects in similar way as a single object. Composite pattern composes objects in term of a tree structure to represent part as well as whole hierarchy. This type of design pattern comes under structural pattern as this pattern creates a tree structure of a group of objects.
+This pattern creates a class that contains a group of its own objects. This class provides ways to modify its group of same objects.
