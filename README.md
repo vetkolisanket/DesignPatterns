@@ -31,3 +31,8 @@ This pattern involves an interface which acts as a bridge which makes the functi
 
 Composite pattern is used where we need to treat a group of objects in similar way as a single object. Composite pattern composes objects in term of a tree structure to represent part as well as whole hierarchy. This type of design pattern comes under structural pattern as this pattern creates a tree structure of a group of objects.
 This pattern creates a class that contains a group of its own objects. This class provides ways to modify its group of same objects.
+
+* [Decorator Pattern](/src/structural/decorator)
+
+Decorator pattern allows a user to add new functionality to an existing object without altering its structure. This type of design pattern comes under structural pattern as this pattern acts as a wrapper to existing class.
+This pattern creates a decorator class which wraps the original class and provides additional functionality keeping class methods signature intact.
