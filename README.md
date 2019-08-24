@@ -36,3 +36,7 @@ This pattern creates a class that contains a group of its own objects. This clas
 
 Decorator pattern allows a user to add new functionality to an existing object without altering its structure. This type of design pattern comes under structural pattern as this pattern acts as a wrapper to existing class.
 This pattern creates a decorator class which wraps the original class and provides additional functionality keeping class methods signature intact.
+
+* [Filter or Criteria Pattern](/src/structural/filter_or_criteria)
+
+Filter pattern or Criteria pattern is a design pattern that enables developers to filter a set of objects using different criteria and chaining them in a decoupled way through logical operations. This type of design pattern comes under structural pattern as this pattern combines multiple criteria to obtain single criteria.
