@@ -2,8 +2,6 @@ package structural.adapter
 
 class GomPlayer: AdvancedMediaPlayer {
 
-
-
     override fun playVlc(fileName: String) {
         println("Playing vlc file Name: $fileName")
     }

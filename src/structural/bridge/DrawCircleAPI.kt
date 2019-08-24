@@ -1,5 +1,5 @@
 package structural.bridge
 
-interface DrawAPI {
+interface DrawCircleAPI {
     fun drawCircle(radius: Int, x: Int, y: Int)
 }
