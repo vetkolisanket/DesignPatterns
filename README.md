@@ -3,6 +3,9 @@
 ### Creational Patterns
 
 * [Factory Pattern](/src/creational/factory)
+
+In Factory pattern, we create objects without exposing the creation logic to the client and refer to newly created object using a common interface.
+
 * [Abstract Factory Pattern](/src/creational/abstract_factory)
 * [Singleton Pattern](/src/creational/singleton)
 
