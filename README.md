@@ -13,6 +13,8 @@ In Abstract Factory pattern, an interface is responsible for creating a factory 
 
 * [Singleton Pattern](/src/creational/singleton)
 
+This pattern involves a single class which is responsible to create an object while making sure that only single object gets created. This class provides a way to access its only object which can be accessed directly without instantiating the object of the class.
+
 ### Behavioral Patterns
 
 * [Command Pattern](/src/behavioral/command)
