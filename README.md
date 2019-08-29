@@ -15,6 +15,10 @@ In Abstract Factory pattern, an interface is responsible for creating a factory 
 
 This pattern involves a single class which is responsible to create an object while making sure that only single object gets created. This class provides a way to access its only object which can be accessed directly without instantiating the object of the class.
 
+* [Builder Pattern](/src/creational/builder)
+
+Builder pattern builds a complex object using simple objects and using a step by step approach.A Builder class builds the final object step by step. This builder is independent of other objects.
+
 ### Behavioral Patterns
 
 * [Command Pattern](/src/behavioral/command)
