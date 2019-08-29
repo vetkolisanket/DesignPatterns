@@ -1,7 +1,9 @@
 package creational.builder.one
 
-class Item {
+interface Item {
 
-
+    fun name(): String
+    fun packing(): Packing
+    fun price(): Float
 
 }
