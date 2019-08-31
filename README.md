@@ -53,3 +53,8 @@ This pattern creates a decorator class which wraps the original class and provid
 * [Filter or Criteria Pattern](/src/structural/filter_or_criteria)
 
 Filter pattern or Criteria pattern is a design pattern that enables developers to filter a set of objects using different criteria and chaining them in a decoupled way through logical operations. This type of design pattern comes under structural pattern as this pattern combines multiple criteria to obtain single criteria.
+
+* [Facade Pattern](src/structural/facade)
+
+Facade pattern hides the complexities of the system and provides an interface to the client using which the client can access the system. This type of design pattern comes under structural pattern as this pattern adds an interface to existing system to hide its complexities.
+This pattern involves a single class which provides simplified methods required by client and delegates calls to methods of existing system classes.
