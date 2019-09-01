@@ -22,6 +22,10 @@ Builder pattern builds a complex object using simple objects and using a step by
 ### Behavioral Patterns
 
 * [Command Pattern](/src/behavioral/command)
+
+Command pattern is a data driven design pattern and falls under behavioral pattern category. A request is wrapped under an object as command and passed to invoker object. Invoker object looks for the appropriate object which can handle this command and passes the command to the corresponding object which executes it.
+
+
 * [Mediator Pattern](/src/behavioral/mediator)
 * [Observer Pattern](/src/behavioral/observer)
 * [Strategy Pattern](/src/behavioral/strategy)
