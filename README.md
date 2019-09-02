@@ -44,6 +44,8 @@ As the name suggests, the chain of responsibility pattern creates a chain of rec
 
 * [State Pattern](/src/behavioral/state)
 
+In State pattern, a class behavior changes based on its state. In State pattern, we create objects which represent various states and a context object whose behavior varies as its state object changes.
+
 ### Structural Patterns
 
 * [Adapter Pattern](/src/structural/adapter)
