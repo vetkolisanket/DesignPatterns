@@ -39,6 +39,9 @@ In Strategy pattern, a class behavior or its algorithm can be changed at run tim
 
 
 * [Chain Of Responsibility Pattern](/src/behavioral/chain_of_responsibility)
+
+As the name suggests, the chain of responsibility pattern creates a chain of receiver objects for a request. This pattern decouples sender and receiver of a request based on type of request. In this pattern, normally each receiver contains reference to another receiver. If one object cannot handle the request then it passes the same to the next receiver and so on.
+
 * [State Pattern](/src/behavioral/state)
 
 ### Structural Patterns
