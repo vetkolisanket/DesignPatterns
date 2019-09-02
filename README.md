@@ -34,6 +34,10 @@ Mediator pattern is used to reduce communication complexity between multiple obj
 Observer pattern is used when there is one-to-many relationship between objects such as if one object is modified, its dependent objects are to be notified automatically.
 
 * [Strategy Pattern](/src/behavioral/strategy)
+
+In Strategy pattern, a class behavior or its algorithm can be changed at run time. In Strategy pattern, we create objects which represent various strategies and a context object whose behavior varies as per its strategy object. The strategy object changes the executing algorithm of the context object.
+
+
 * [Chain Of Responsibility Pattern](/src/behavioral/chain_of_responsibility)
 * [State Pattern](/src/behavioral/state)
 
