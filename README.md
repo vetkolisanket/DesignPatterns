@@ -30,6 +30,9 @@ Command pattern is a data driven design pattern and falls under behavioral patte
 Mediator pattern is used to reduce communication complexity between multiple objects or classes. This pattern provides a mediator class which normally handles all the communications between different classes and supports easy maintenance of the code by loose coupling.
 
 * [Observer Pattern](/src/behavioral/observer)
+
+Observer pattern is used when there is one-to-many relationship between objects such as if one object is modified, its dependent objects are to be notified automatically.
+
 * [Strategy Pattern](/src/behavioral/strategy)
 * [Chain Of Responsibility Pattern](/src/behavioral/chain_of_responsibility)
 * [State Pattern](/src/behavioral/state)
