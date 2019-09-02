@@ -25,8 +25,10 @@ Builder pattern builds a complex object using simple objects and using a step by
 
 Command pattern is a data driven design pattern and falls under behavioral pattern category. A request is wrapped under an object as command and passed to invoker object. Invoker object looks for the appropriate object which can handle this command and passes the command to the corresponding object which executes it.
 
-
 * [Mediator Pattern](/src/behavioral/mediator)
+
+Mediator pattern is used to reduce communication complexity between multiple objects or classes. This pattern provides a mediator class which normally handles all the communications between different classes and supports easy maintenance of the code by loose coupling.
+
 * [Observer Pattern](/src/behavioral/observer)
 * [Strategy Pattern](/src/behavioral/strategy)
 * [Chain Of Responsibility Pattern](/src/behavioral/chain_of_responsibility)
