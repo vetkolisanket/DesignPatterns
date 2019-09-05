@@ -80,3 +80,7 @@ Filter pattern or Criteria pattern is a design pattern that enables developers t
 
 Facade pattern hides the complexities of the system and provides an interface to the client using which the client can access the system. This type of design pattern comes under structural pattern as this pattern adds an interface to existing system to hide its complexities.
 This pattern involves a single class which provides simplified methods required by client and delegates calls to methods of existing system classes.
+
+* [Flyweight Pattern](src/structural/flyweight)
+
+Flyweight pattern is primarily used to reduce the number of objects created and to decrease memory footprint and increase performance.Flyweight pattern tries to reuse already existing similar kind objects by storing them and creates new object when no matching object is found.
