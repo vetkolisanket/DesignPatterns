@@ -84,3 +84,7 @@ This pattern involves a single class which provides simplified methods required 
 * [Flyweight Pattern](src/structural/flyweight)
 
 Flyweight pattern is primarily used to reduce the number of objects created and to decrease memory footprint and increase performance.Flyweight pattern tries to reuse already existing similar kind objects by storing them and creates new object when no matching object is found.
+
+* [Proxy Pattern](/src/structural/proxy)
+
+In proxy pattern, a class represents functionality of another class. In proxy pattern, we create object having original object to interface its functionality to outer world.
