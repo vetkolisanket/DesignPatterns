@@ -50,6 +50,10 @@ As the name suggests, the chain of responsibility pattern creates a chain of rec
 
 In State pattern, a class behavior changes based on its state. In State pattern, we create objects which represent various states and a context object whose behavior varies as its state object changes.
 
+* [Interpreter Pattern](/src/behavioral/interpreter)
+
+Interpreter pattern provides a way to evaluate language grammar or expression. This pattern involves implementing an expression interface which tells to interpret a particular context. This pattern is used in SQL parsing, symbol processing engine etc.
+
 ### Structural Patterns
 
 * [Adapter Pattern](/src/structural/adapter)
