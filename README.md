@@ -54,6 +54,10 @@ In State pattern, a class behavior changes based on its state. In State pattern,
 
 Interpreter pattern provides a way to evaluate language grammar or expression. This pattern involves implementing an expression interface which tells to interpret a particular context. This pattern is used in SQL parsing, symbol processing engine etc.
 
+* [Behavioral Pattern](/src/behavioral/iterator)
+
+
+
 ### Structural Patterns
 
 * [Adapter Pattern](/src/structural/adapter)
