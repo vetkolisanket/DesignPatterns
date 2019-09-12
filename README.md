@@ -56,7 +56,7 @@ Interpreter pattern provides a way to evaluate language grammar or expression. T
 
 * [Behavioral Pattern](/src/behavioral/iterator)
 
-
+Iterator pattern is used to get a way to access the elements of a collection object in sequential manner without any need to know its underlying representation.
 
 ### Structural Patterns
 
