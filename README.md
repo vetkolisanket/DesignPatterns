@@ -58,6 +58,10 @@ Interpreter pattern provides a way to evaluate language grammar or expression. T
 
 Iterator pattern is used to get a way to access the elements of a collection object in sequential manner without any need to know its underlying representation.
 
+* [Memento Pattern](/src/behavioral/memento)
+
+Memento pattern is used to restore state of an object to a previous state. Memento pattern uses three actor classes. Memento contains state of an object to be restored. Originator creates and stores states in Memento objects and Caretaker object is responsible to restore object state from Memento.
+
 ### Structural Patterns
 
 * [Adapter Pattern](/src/structural/adapter)
