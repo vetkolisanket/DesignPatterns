@@ -41,7 +41,6 @@ Observer pattern is used when there is one-to-many relationship between objects 
 
 In Strategy pattern, a class behavior or its algorithm can be changed at run time. In Strategy pattern, we create objects which represent various strategies and a context object whose behavior varies as per its strategy object. The strategy object changes the executing algorithm of the context object.
 
-
 * [Chain Of Responsibility Pattern](/src/behavioral/chain_of_responsibility)
 
 As the name suggests, the chain of responsibility pattern creates a chain of receiver objects for a request. This pattern decouples sender and receiver of a request based on type of request. In this pattern, normally each receiver contains reference to another receiver. If one object cannot handle the request then it passes the same to the next receiver and so on.
@@ -54,13 +53,18 @@ In State pattern, a class behavior changes based on its state. In State pattern,
 
 Interpreter pattern provides a way to evaluate language grammar or expression. This pattern involves implementing an expression interface which tells to interpret a particular context. This pattern is used in SQL parsing, symbol processing engine etc.
 
-* [Behavioral Pattern](/src/behavioral/iterator)
+* [Iterator Pattern](/src/behavioral/iterator)
 
 Iterator pattern is used to get a way to access the elements of a collection object in sequential manner without any need to know its underlying representation.
 
 * [Memento Pattern](/src/behavioral/memento)
 
 Memento pattern is used to restore state of an object to a previous state. Memento pattern uses three actor classes. Memento contains state of an object to be restored. Originator creates and stores states in Memento objects and Caretaker object is responsible to restore object state from Memento.
+
+* [Null Object Pattern](/src/behavioral/null_object)
+
+In Null Object pattern, a null object replaces check of NULL object instance. Instead of putting if check for a null value, Null Object reflects a do nothing relationship. Such Null object can also be used to provide default behaviour in case data is not available.
+In Null Object pattern, we create an abstract class specifying various operations to be done, concrete classes extending this class and a null object class providing do nothing implementation of this class and will be used to check null value.
 
 ### Structural Patterns
 
