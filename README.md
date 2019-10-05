@@ -70,6 +70,11 @@ In Null Object pattern, we create an abstract class specifying various operation
 
 In Template pattern, an abstract class defines way(s)/template(s) to execute its methods. Its subclasses can override the method implementation as per need but the invocation is to be in the same way as defined by an abstract class.
 
+* [Visitor Pattern](/src/behavioral/visitor)
+
+In Visitor pattern, we use a visitor class which changes the executing algorithm of an element class. By this way, execution algorithm of element can vary as and when visitor varies. As per the pattern, element object has to accept the visitor object so that visitor object handles the operation on the element object.
+
+
 ### Structural Patterns
 
 * [Adapter Pattern](/src/structural/adapter)
