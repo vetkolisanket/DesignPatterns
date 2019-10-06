@@ -113,3 +113,15 @@ Flyweight pattern is primarily used to reduce the number of objects created and 
 * [Proxy Pattern](/src/structural/proxy)
 
 In proxy pattern, a class represents functionality of another class. In proxy pattern, we create object having original object to interface its functionality to outer world.
+
+### Architectural Patterns
+
+* [MVC (Model View Controller)](/src/architectural/mvc)
+
+MVC Pattern stands for Model-View-Controller Pattern. This pattern is used to separate application's concerns.
+
+- <b>Model</b> - Model represents an object or JAVA POJO carrying data. It can also have logic to update controller if its data changes.
+
+- <b>View</b> - View represents the visualization of the data that model contains.
+
+- <b>Controller</b> - Controller acts on both model and view. It controls the data flow into model object and updates the view whenever data changes. It keeps view and model separate.
