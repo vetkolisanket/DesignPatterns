@@ -121,9 +121,16 @@ In proxy pattern, a class represents functionality of another class. In proxy pa
 MVC Pattern stands for Model-View-Controller Pattern. This pattern is used to separate application's concerns.
 
 - <b>Model</b> - Model represents an object or JAVA POJO carrying data. It can also have logic to update controller if its data changes.
-
 - <b>View</b> - View represents the visualization of the data that model contains.
-
 - <b>Controller</b> - Controller acts on both model and view. It controls the data flow into model object and updates the view whenever data changes. It keeps view and model separate.
 
 * [Business Delegate Pattern](src/architectural/business_delegate_pattern)
+
+Business Delegate Pattern is used to decouple presentation tier and business tier. It is basically use to reduce communication or remote lookup functionality to business tier code in presentation tier code. In business tier we have following entities.
+
+- <b>Client</b> - Presentation tier code may be JSP, servlet or UI java code.
+- <b>Business Delegate</b> - A single entry point class for client entities to provide
+access to Business Service methods.
+- <b>LookUp Service</b> - Lookup service object is responsible to get relative business implementation and provide business object access to business delegate object.
+- <b>Business Service</b> - Concrete classes implement this business service to provide actual business implementation logic.
+
