@@ -125,3 +125,5 @@ MVC Pattern stands for Model-View-Controller Pattern. This pattern is used to se
 - <b>View</b> - View represents the visualization of the data that model contains.
 
 - <b>Controller</b> - Controller acts on both model and view. It controls the data flow into model object and updates the view whenever data changes. It keeps view and model separate.
+
+* [Business Delegate Pattern](src/architectural/business_delegate_pattern)
